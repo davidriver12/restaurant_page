@@ -1,0 +1,73 @@
+html, body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#background {
+    background: url('./bg.jpg') no-repeat center #eee;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25vh;
+}
+
+#header {
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    margin-right: auto;
+    margin-left: 2vw;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    margin: 0px 2vw 0px 2vw;
+    cursor: pointer;
+}
+
+#main {
+    background-color: rgba(0, 0, 0, .5);
+    width: 70vw;
+    height: 65vh;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#chef-img {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+}
+
+#text {
+    color: white;
+}
+
+h1, h2, h3 {
+    margin-left: 0px;
+}
