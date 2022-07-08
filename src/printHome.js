@@ -1,6 +1,7 @@
 const printHome = () => {
     const contentDiv = document.querySelector('#content');
     let main = document.createElement('div');
+    contentDiv.innerHTML = '';
     main.setAttribute('id', 'main');
     let chefImg = document.createElement('img');
     chefImg.setAttribute('src', "../src/chef.jpeg");
